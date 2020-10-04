@@ -20,9 +20,6 @@ public class OrderAPI extends BaseTest {
 	static String orderId;
 
 	
-	
-	
-	
 	public static String getAccessToken() {
 
 		String access_token = given().param("grant_type", "client_credentials")
