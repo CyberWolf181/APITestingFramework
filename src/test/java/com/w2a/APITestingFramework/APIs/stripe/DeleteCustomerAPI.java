@@ -14,7 +14,7 @@ public class DeleteCustomerAPI extends BaseTest{
 
 		//Inside DeleteCustomer API
 		Response response = given().auth().basic(config.getProperty("validSecretKey"), "")
-		.delete(config.getProperty("customerAPIEndPoint")+"/"+data.get("id"));
+		.delete(config.getProperty("customerAPIEndPoint")+"/"+data.get("id")); //comes from excel sheet
 		
 		return response;
 		

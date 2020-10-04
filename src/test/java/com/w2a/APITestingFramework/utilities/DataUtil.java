@@ -9,7 +9,7 @@ import com.w2a.APITestingFramework.setUp.BaseTest;
 
 public class DataUtil extends BaseTest{
 	
-	@DataProvider(name="data")
+	@DataProvider(name="data")   //@DataProvider(name="data",parallel=true) in order to run parallel all the data
 	public static Object[][] getData(Method m) {
 
 		int rows = excel.getRowCount(config.getProperty("testDataSheetName"));

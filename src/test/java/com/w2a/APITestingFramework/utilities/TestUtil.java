@@ -5,8 +5,7 @@ import org.json.JSONObject;
 import com.w2a.APITestingFramework.listeners.ExtentListeners;
 
 public class TestUtil {
-	
-	
+
 	
 	public static boolean jsonHasKey(String json,String key) {
 		
