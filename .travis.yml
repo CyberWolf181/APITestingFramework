@@ -1,10 +1,6 @@
-
 language: java
-os:
-  - windows
 
-jdk:
-  - openjdk8
+script: mvn test -f ./pom.xml
 
 notifications:
   email:ekremkurt_fb@hotmail.com
